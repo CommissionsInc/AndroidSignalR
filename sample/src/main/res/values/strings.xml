@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AndroidSignalR</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="send">Send</string>
+    <string name="message">Message</string>
+
+    <string name="starting">Starting..</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting..</string>
+    <string name="reconnecting">Reconnecting..</string>
+    <string name="reconnected">Reconnected.  Connection ID: %d</string>
+    <string name="connection_slow">Connection slow..</string>
+
+
+    <string name="enter_name">Please enter your name</string>
+
+
+</resources>
