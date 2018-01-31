@@ -8,7 +8,11 @@ It's a wrapper around the SignalR JavaScript client running in a hidden web view
 
 ### Installation
 
-jcenter
+Available from jcenter
+
+```groovy
+compile 'com.commissionsinc:androidsignalr:1.0'
+```
 
 ### Simple Example
 

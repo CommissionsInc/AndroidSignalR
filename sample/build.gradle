@@ -6,6 +6,11 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 27
+
+    lintOptions {
+        abortOnError false
+    }
+
     defaultConfig {
         applicationId "com.commissionsinc.androidsignalrsample"
         minSdkVersion 21

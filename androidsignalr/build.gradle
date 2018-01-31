@@ -1,15 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
-    }
-}
-
 ext {
     bintrayRepo = 'AndroidSignalR' // your repo name
     bintrayName = 'androidsignalr' // has to be same as your library module name
@@ -28,8 +19,18 @@ ext {
     allLicenses = ["MIT"]
 }
 
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
 android {
     compileSdkVersion 27
+
+    lintOptions {
+        abortOnError false
+    }
 
     defaultConfig {
         minSdkVersion 21
